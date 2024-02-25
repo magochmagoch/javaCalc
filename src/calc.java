@@ -79,7 +79,7 @@ class Main {
         }
         strResult += doubleResult;
         if (Arrays.asList(romanNums).contains(aStr)) {
-            if (doubleResult <= 0 || a % b != 0)
+            if (doubleResult <= 0 || doubleResult % 1 != 0)
                 throw new IllegalArgumentException();
             strResult = arabicToRoman(strResult);
         }
